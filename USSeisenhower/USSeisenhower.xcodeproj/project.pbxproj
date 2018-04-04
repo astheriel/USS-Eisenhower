@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E520029E207553610082547A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E520029D207553610082547A /* AppDelegate.swift */; };
+		E52002A0207553610082547A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E520029F207553610082547A /* ViewController.swift */; };
+		E52002A3207553610082547A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52002A1207553610082547A /* Main.storyboard */; };
+		E52002A6207553610082547A /* USSeisenhower.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E52002A4207553610082547A /* USSeisenhower.xcdatamodeld */; };
+		E52002A8207553610082547A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52002A7207553610082547A /* Assets.xcassets */; };
+		E52002AB207553610082547A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52002A9207553610082547A /* LaunchScreen.storyboard */; };
+		E52002B6207553610082547A /* USSeisenhowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002B5207553610082547A /* USSeisenhowerTests.swift */; };
+		E52002C1207553610082547A /* USSeisenhowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002C0207553610082547A /* USSeisenhowerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E52002B2207553610082547A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5200292207553610082547A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5200299207553610082547A;
+			remoteInfo = USSeisenhower;
+		};
+		E52002BD207553610082547A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5200292207553610082547A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5200299207553610082547A;
+			remoteInfo = USSeisenhower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E520029A207553610082547A /* USSeisenhower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USSeisenhower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E520029D207553610082547A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E520029F207553610082547A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E52002A2207553610082547A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E52002A5207553610082547A /* USSeisenhower.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = USSeisenhower.xcdatamodel; sourceTree = "<group>"; };
+		E52002A7207553610082547A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E52002AA207553610082547A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E52002AC207553610082547A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52002B1207553610082547A /* USSeisenhowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USSeisenhowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52002B5207553610082547A /* USSeisenhowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USSeisenhowerTests.swift; sourceTree = "<group>"; };
+		E52002B7207553610082547A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52002BC207553610082547A /* USSeisenhowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USSeisenhowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52002C0207553610082547A /* USSeisenhowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USSeisenhowerUITests.swift; sourceTree = "<group>"; };
+		E52002C2207553610082547A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5200297207553610082547A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52002AE207553610082547A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52002B9207553610082547A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5200291207553610082547A = {
+			isa = PBXGroup;
+			children = (
+				E520029C207553610082547A /* USSeisenhower */,
+				E52002B4207553610082547A /* USSeisenhowerTests */,
+				E52002BF207553610082547A /* USSeisenhowerUITests */,
+				E520029B207553610082547A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E520029B207553610082547A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E520029A207553610082547A /* USSeisenhower.app */,
+				E52002B1207553610082547A /* USSeisenhowerTests.xctest */,
+				E52002BC207553610082547A /* USSeisenhowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E520029C207553610082547A /* USSeisenhower */ = {
+			isa = PBXGroup;
+			children = (
+				E520029D207553610082547A /* AppDelegate.swift */,
+				E520029F207553610082547A /* ViewController.swift */,
+				E52002A1207553610082547A /* Main.storyboard */,
+				E52002A7207553610082547A /* Assets.xcassets */,
+				E52002A9207553610082547A /* LaunchScreen.storyboard */,
+				E52002AC207553610082547A /* Info.plist */,
+				E52002A4207553610082547A /* USSeisenhower.xcdatamodeld */,
+			);
+			path = USSeisenhower;
+			sourceTree = "<group>";
+		};
+		E52002B4207553610082547A /* USSeisenhowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E52002B5207553610082547A /* USSeisenhowerTests.swift */,
+				E52002B7207553610082547A /* Info.plist */,
+			);
+			path = USSeisenhowerTests;
+			sourceTree = "<group>";
+		};
+		E52002BF207553610082547A /* USSeisenhowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E52002C0207553610082547A /* USSeisenhowerUITests.swift */,
+				E52002C2207553610082547A /* Info.plist */,
+			);
+			path = USSeisenhowerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5200299207553610082547A /* USSeisenhower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52002C5207553610082547A /* Build configuration list for PBXNativeTarget "USSeisenhower" */;
+			buildPhases = (
+				E5200296207553610082547A /* Sources */,
+				E5200297207553610082547A /* Frameworks */,
+				E5200298207553610082547A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USSeisenhower;
+			productName = USSeisenhower;
+			productReference = E520029A207553610082547A /* USSeisenhower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E52002B0207553610082547A /* USSeisenhowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52002C8207553610082547A /* Build configuration list for PBXNativeTarget "USSeisenhowerTests" */;
+			buildPhases = (
+				E52002AD207553610082547A /* Sources */,
+				E52002AE207553610082547A /* Frameworks */,
+				E52002AF207553610082547A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52002B3207553610082547A /* PBXTargetDependency */,
+			);
+			name = USSeisenhowerTests;
+			productName = USSeisenhowerTests;
+			productReference = E52002B1207553610082547A /* USSeisenhowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E52002BB207553610082547A /* USSeisenhowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52002CB207553610082547A /* Build configuration list for PBXNativeTarget "USSeisenhowerUITests" */;
+			buildPhases = (
+				E52002B8207553610082547A /* Sources */,
+				E52002B9207553610082547A /* Frameworks */,
+				E52002BA207553610082547A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52002BE207553610082547A /* PBXTargetDependency */,
+			);
+			name = USSeisenhowerUITests;
+			productName = USSeisenhowerUITests;
+			productReference = E52002BC207553610082547A /* USSeisenhowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5200292207553610082547A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = daisycutter;
+				TargetAttributes = {
+					E5200299207553610082547A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E52002B0207553610082547A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5200299207553610082547A;
+					};
+					E52002BB207553610082547A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5200299207553610082547A;
+					};
+				};
+			};
+			buildConfigurationList = E5200295207553610082547A /* Build configuration list for PBXProject "USSeisenhower" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5200291207553610082547A;
+			productRefGroup = E520029B207553610082547A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5200299207553610082547A /* USSeisenhower */,
+				E52002B0207553610082547A /* USSeisenhowerTests */,
+				E52002BB207553610082547A /* USSeisenhowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5200298207553610082547A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52002AB207553610082547A /* LaunchScreen.storyboard in Resources */,
+				E52002A8207553610082547A /* Assets.xcassets in Resources */,
+				E52002A3207553610082547A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52002AF207553610082547A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52002BA207553610082547A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5200296207553610082547A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52002A6207553610082547A /* USSeisenhower.xcdatamodeld in Sources */,
+				E52002A0207553610082547A /* ViewController.swift in Sources */,
+				E520029E207553610082547A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52002AD207553610082547A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52002B6207553610082547A /* USSeisenhowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52002B8207553610082547A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52002C1207553610082547A /* USSeisenhowerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E52002B3207553610082547A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5200299207553610082547A /* USSeisenhower */;
+			targetProxy = E52002B2207553610082547A /* PBXContainerItemProxy */;
+		};
+		E52002BE207553610082547A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5200299207553610082547A /* USSeisenhower */;
+			targetProxy = E52002BD207553610082547A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E52002A1207553610082547A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52002A2207553610082547A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E52002A9207553610082547A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52002AA207553610082547A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E52002C3207553610082547A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E52002C4207553610082547A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E52002C6207553610082547A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5DYYRQ6DY;
+				INFOPLIST_FILE = USSeisenhower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pepouz.USSeisenhower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E52002C7207553610082547A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5DYYRQ6DY;
+				INFOPLIST_FILE = USSeisenhower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pepouz.USSeisenhower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E52002C9207553610082547A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5DYYRQ6DY;
+				INFOPLIST_FILE = USSeisenhowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pepouz.USSeisenhowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USSeisenhower.app/USSeisenhower";
+			};
+			name = Debug;
+		};
+		E52002CA207553610082547A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5DYYRQ6DY;
+				INFOPLIST_FILE = USSeisenhowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pepouz.USSeisenhowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USSeisenhower.app/USSeisenhower";
+			};
+			name = Release;
+		};
+		E52002CC207553610082547A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5DYYRQ6DY;
+				INFOPLIST_FILE = USSeisenhowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pepouz.USSeisenhowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = USSeisenhower;
+			};
+			name = Debug;
+		};
+		E52002CD207553610082547A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5DYYRQ6DY;
+				INFOPLIST_FILE = USSeisenhowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pepouz.USSeisenhowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = USSeisenhower;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5200295207553610082547A /* Build configuration list for PBXProject "USSeisenhower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52002C3207553610082547A /* Debug */,
+				E52002C4207553610082547A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52002C5207553610082547A /* Build configuration list for PBXNativeTarget "USSeisenhower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52002C6207553610082547A /* Debug */,
+				E52002C7207553610082547A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52002C8207553610082547A /* Build configuration list for PBXNativeTarget "USSeisenhowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52002C9207553610082547A /* Debug */,
+				E52002CA207553610082547A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52002CB207553610082547A /* Build configuration list for PBXNativeTarget "USSeisenhowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52002CC207553610082547A /* Debug */,
+				E52002CD207553610082547A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E52002A4207553610082547A /* USSeisenhower.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E52002A5207553610082547A /* USSeisenhower.xcdatamodel */,
+			);
+			currentVersion = E52002A5207553610082547A /* USSeisenhower.xcdatamodel */;
+			path = USSeisenhower.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E5200292207553610082547A /* Project object */;
+}
