@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E520029E207553610082547A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E520029D207553610082547A /* AppDelegate.swift */; };
-		E52002A0207553610082547A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E520029F207553610082547A /* ViewController.swift */; };
 		E52002A3207553610082547A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52002A1207553610082547A /* Main.storyboard */; };
 		E52002A6207553610082547A /* USSeisenhower.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E52002A4207553610082547A /* USSeisenhower.xcdatamodeld */; };
 		E52002A8207553610082547A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52002A7207553610082547A /* Assets.xcassets */; };
 		E52002AB207553610082547A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52002A9207553610082547A /* LaunchScreen.storyboard */; };
 		E52002B6207553610082547A /* USSeisenhowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002B5207553610082547A /* USSeisenhowerTests.swift */; };
 		E52002C1207553610082547A /* USSeisenhowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002C0207553610082547A /* USSeisenhowerUITests.swift */; };
+		E52002CF207557130082547A /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002CE207557130082547A /* ToDoTableViewController.swift */; };
+		E52002D0207557130082547A /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002CE207557130082547A /* ToDoTableViewController.swift */; };
+		E52002D1207557130082547A /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002CE207557130082547A /* ToDoTableViewController.swift */; };
+		E52002D32075574B0082547A /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002D22075574B0082547A /* ToDoTableViewCell.swift */; };
+		E52002D42075574B0082547A /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002D22075574B0082547A /* ToDoTableViewCell.swift */; };
+		E52002D52075574B0082547A /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002D22075574B0082547A /* ToDoTableViewCell.swift */; };
+		E52002D7207557680082547A /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002D6207557680082547A /* ToDoItem.swift */; };
+		E52002D8207557680082547A /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002D6207557680082547A /* ToDoItem.swift */; };
+		E52002D9207557680082547A /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002D6207557680082547A /* ToDoItem.swift */; };
+		E52002DB2075578C0082547A /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002DA2075578C0082547A /* DataManger.swift */; };
+		E52002DC2075578C0082547A /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002DA2075578C0082547A /* DataManger.swift */; };
+		E52002DD2075578C0082547A /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52002DA2075578C0082547A /* DataManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +48,6 @@
 /* Begin PBXFileReference section */
 		E520029A207553610082547A /* USSeisenhower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USSeisenhower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E520029D207553610082547A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E520029F207553610082547A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E52002A2207553610082547A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E52002A5207553610082547A /* USSeisenhower.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = USSeisenhower.xcdatamodel; sourceTree = "<group>"; };
 		E52002A7207553610082547A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +59,10 @@
 		E52002BC207553610082547A /* USSeisenhowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USSeisenhowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52002C0207553610082547A /* USSeisenhowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USSeisenhowerUITests.swift; sourceTree = "<group>"; };
 		E52002C2207553610082547A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52002CE207557130082547A /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		E52002D22075574B0082547A /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		E52002D6207557680082547A /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		E52002DA2075578C0082547A /* DataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				E520029D207553610082547A /* AppDelegate.swift */,
-				E520029F207553610082547A /* ViewController.swift */,
+				E52002CE207557130082547A /* ToDoTableViewController.swift */,
+				E52002D22075574B0082547A /* ToDoTableViewCell.swift */,
+				E52002D6207557680082547A /* ToDoItem.swift */,
+				E52002DA2075578C0082547A /* DataManger.swift */,
 				E52002A1207553610082547A /* Main.storyboard */,
 				E52002A7207553610082547A /* Assets.xcassets */,
 				E52002A9207553610082547A /* LaunchScreen.storyboard */,
@@ -263,8 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52002A6207553610082547A /* USSeisenhower.xcdatamodeld in Sources */,
-				E52002A0207553610082547A /* ViewController.swift in Sources */,
+				E52002CF207557130082547A /* ToDoTableViewController.swift in Sources */,
+				E52002D7207557680082547A /* ToDoItem.swift in Sources */,
 				E520029E207553610082547A /* AppDelegate.swift in Sources */,
+				E52002D32075574B0082547A /* ToDoTableViewCell.swift in Sources */,
+				E52002DB2075578C0082547A /* DataManger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52002D42075574B0082547A /* ToDoTableViewCell.swift in Sources */,
 				E52002B6207553610082547A /* USSeisenhowerTests.swift in Sources */,
+				E52002D8207557680082547A /* ToDoItem.swift in Sources */,
+				E52002DC2075578C0082547A /* DataManger.swift in Sources */,
+				E52002D0207557130082547A /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52002D52075574B0082547A /* ToDoTableViewCell.swift in Sources */,
 				E52002C1207553610082547A /* USSeisenhowerUITests.swift in Sources */,
+				E52002D9207557680082547A /* ToDoItem.swift in Sources */,
+				E52002DD2075578C0082547A /* DataManger.swift in Sources */,
+				E52002D1207557130082547A /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
